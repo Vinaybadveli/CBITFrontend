@@ -1,0 +1,43 @@
+
+.text{
+    font-size:40px;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    color: #EDEDEDFF;
+    background-color: #48cb66;
+    border: dotted;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+}
+.p{
+    font-size: 20px;
+    color:white;
+}
+.button{
+    padding: 10px;
+    width: 80px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: #48cb66;
+    color: white;
+    margin-left: 220px;
+    border:none;
+}
+.a{
+    background-image: url("https://www.vanseodesign.com/blog/wp-content/uploads/2011/10/background-3.jpg"); 
+    background-size: cover;
+    height:700px
+}
+.n{
+    color:white;
+}
+.img{
+    margin-left: 150px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.unordered-square-list {
+  list-style-type: square;
+}

@@ -1,0 +1,78 @@
+.div{
+    margin-left: 200px;
+    
+}
+
+.a{
+    height:100px;
+    width:100px;
+    background-color: blueviolet;
+    margin:10px;
+    transition: 0.5s;
+    opacity: 0.5;
+    transition: width 2s, height 2s, transform 2s;
+    translate
+    
+
+}
+.a:hover{
+    height:150px;
+    width:150px;
+    background-color:blueviolet;
+    opacity: 1;
+    transform: rotate(360deg);
+
+}
+.vinay{
+    padding:50px;
+    color:yellow;
+    font-size: 20px;
+
+}
+.button-1 {
+  background-color: #EA4C89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #F082AC;
+}
+
+.r {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition:0.3s;
+
+  }
+  
+  @keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
